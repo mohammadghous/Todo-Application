@@ -14,8 +14,7 @@ Content-Type: application/json
 DELETE http://localhost:3000/todos/10/
 ###
 
-GET http://localhost:3000/todos/?search_q=Play
-###
+
 
 GET http://localhost:3000/todos/?status=TO%20DO
 ###
@@ -25,6 +24,8 @@ GET http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
 GET http://localhost:3000/todos/?priority=HIGH
 ###
 
+GET http://localhost:3000/todos/?search_q=Play
+###
 
 PUT http://localhost:3000/todos/2/
 Content-Type: application/json
